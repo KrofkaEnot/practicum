@@ -1,5 +1,5 @@
 import { wrapper_button_room } from './button/buttonRoom.js';
-import { nav } from "./button/buttonNav";
+import { nav } from "./button/routerButtonNav";
 import indexStyles from './index.scss';
 export const root = document.querySelector('#root');
 
