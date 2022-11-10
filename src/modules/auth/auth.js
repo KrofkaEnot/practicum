@@ -1,4 +1,4 @@
-import authStyle from './auth.css';
+import authStyle from './auth.scss';
 
 
 import { Handlebars, fieldNamesAuth } from '../../variableStorage';

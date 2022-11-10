@@ -1,4 +1,4 @@
-import buttonStyles from './button.css';
+import buttonStyles from './button.scss';
 
 const CHAT_NAMES = [
     'Room 1',

@@ -10,11 +10,11 @@
     "engines": {
         "node": ">=16.16.0"
     },
-
     "keywords": [],
     "author": "Kireev V.V.",
     "license": "ISC",
     "devDependencies": {
+        "@parcel/transformer-sass": "^2.7.0",
         "parcel": "latest"
     },
     "dependencies": {

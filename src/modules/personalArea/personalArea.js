@@ -1,4 +1,4 @@
-import personalAreaStyle from './personalArea.css';
+import personalAreaStyle from './personalArea.scss';
 import { Handlebars, fieldNamesPersonalArea } from '../../variableStorage';
 
 const personalArea = document.createElement('div');
@@ -8,7 +8,7 @@ personalArea.className = 'personal_area_div';
 const template = Handlebars.compile(`
 {{title}}
 <hr>
-<form name="test" method="post" action="../index.html">
+<form name="test" method="post" action="">
 
 <p>{{displayLogin}}<br>
 {{login}}
