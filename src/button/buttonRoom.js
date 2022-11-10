@@ -1,4 +1,4 @@
-import buttonStyles from './button.css';
+import buttonStyles from './button.scss';
 
 const CHAT_NAMES = [
     'Room 1',
@@ -33,50 +33,15 @@ function renderChat() {
     return ul;
 }
 
-function renderAddButton() {
-    const button = document.createElement('button');
-    button.className = 'button';
 
-    button.addEventListener('click', function (event) {
-        console.log('Add chat!');
-    });
-
-    const text = document.createElement('span');
-    text.textContent = 'Add chat';
-    button.appendChild(text);
-
-    const wrapper = document.createElement('div');
-    wrapper.className = 'chat_button';
-
-    wrapper.appendChild(button);
-    return wrapper;
-}
 //__________________________\\
-function renderAddChat() {
-    const button = document.createElement('button');
-    button.className = 'button';
 
-    button.addEventListener('click', function (event) {
-        console.log('Add chat!');
-    });
-
-    const text = document.createElement('span');
-    text.textContent = 'Add chat';
-    button.appendChild(text);
-
-    const wrapper = document.createElement('div');
-    wrapper.className = 'chat_button';
-
-    wrapper.appendChild(button);
-    return wrapper;
-}
-//__________________\\
 function renderAddRoom() {
     const button = document.createElement('button');
     button.className = 'button';
 
     button.addEventListener('click', function (event) {
-        console.log('Add room!');
+        alert('Add room!');
     });
 
     const text = document.createElement('span');
@@ -96,5 +61,5 @@ wrapper.className = 'chat_wrapper';
 wrapper.appendChild(renderChat());
 
 export { wrapper as wrapper_button_room };
-export {renderAddChat, renderAddRoom}
+export {renderAddRoom}
 

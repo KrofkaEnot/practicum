@@ -1,4 +1,4 @@
-import recallStyle from './forgotYouPass.css';
+import recallStyle from './forgotYouPass.scss';
 import { Handlebars, fieldNamesForgotYouPass } from '../../variableStorage';
 
 
@@ -7,7 +7,7 @@ recall.className = 'recall'
 
 const template = Handlebars.compile(`
 {{title}}
-<form name="test" method="post" action="../index.html">
+<form name="test" method="post" action="">
 <p>{{fieldNameEmail}}<br>
  <input type="email">
 </p>

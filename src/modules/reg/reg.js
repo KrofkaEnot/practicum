@@ -1,4 +1,4 @@
-import regStyle from './reg.css';
+import regStyle from './reg.scss';
 
 import { Handlebars, fieldNamesReg } from '../../variableStorage';
 
@@ -8,7 +8,7 @@ reg.id = 'reg_div';
 const template = Handlebars.compile(`
 {{title}}
 <hr>
-<form name="test" method="post" action="../index.html">
+<form name="test" method="post" action="">
 <p>{{fieldNameEmail}}<br>
  <input type="email">
 </p>
