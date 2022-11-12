@@ -3,7 +3,6 @@ import { nav } from "./button/routerButtonNav";
 import indexStyles from './index.scss';
 export const root = document.querySelector('#root');
 
-
 const root_header = document.createElement("div");
 const root_left_and_right = document.createElement("div");
 const root_footer = document.createElement("div");
@@ -25,4 +24,3 @@ root_left_and_right.append(root_left, root_right)
 root.append(root_header, root_left_and_right, root_footer);
 
 export { root_right, root_left };
-
